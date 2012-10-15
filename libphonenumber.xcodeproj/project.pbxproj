@@ -67,6 +67,15 @@
 		C99E203F162C34EC0065132D /* tostring.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E200A162C34EC0065132D /* tostring.cc */; };
 		C99E2040162C34EC0065132D /* unicode_casefold.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E200C162C34EC0065132D /* unicode_casefold.cc */; };
 		C99E2041162C34EC0065132D /* unicode_groups.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E200E162C34EC0065132D /* unicode_groups.cc */; };
+		C99E2054162C37960065132D /* gtest_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E204A162C37960065132D /* gtest_main.cc */; };
+		C99E2055162C37960065132D /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E204B162C37960065132D /* gtest-all.cc */; };
+		C99E2056162C37960065132D /* gtest-death-test.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E204C162C37960065132D /* gtest-death-test.cc */; };
+		C99E2057162C37960065132D /* gtest-filepath.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E204D162C37960065132D /* gtest-filepath.cc */; };
+		C99E2058162C37960065132D /* gtest-port.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E204F162C37960065132D /* gtest-port.cc */; };
+		C99E2059162C37960065132D /* gtest-printers.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2050162C37960065132D /* gtest-printers.cc */; };
+		C99E205A162C37960065132D /* gtest-test-part.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2051162C37960065132D /* gtest-test-part.cc */; };
+		C99E205B162C37960065132D /* gtest-typed-test.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2052162C37960065132D /* gtest-typed-test.cc */; };
+		C99E205C162C37960065132D /* gtest.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2053162C37960065132D /* gtest.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,6 +191,16 @@
 		C99E200F162C34EC0065132D /* unicode_groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicode_groups.h; sourceTree = "<group>"; };
 		C99E2010162C34EC0065132D /* variadic_function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variadic_function.h; sourceTree = "<group>"; };
 		C99E2011162C34EC0065132D /* walker-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "walker-inl.h"; sourceTree = "<group>"; };
+		C99E204A162C37960065132D /* gtest_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gtest_main.cc; path = "googletest-read-only/src/gtest_main.cc"; sourceTree = "<group>"; };
+		C99E204B162C37960065132D /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "googletest-read-only/src/gtest-all.cc"; sourceTree = "<group>"; };
+		C99E204C162C37960065132D /* gtest-death-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-death-test.cc"; path = "googletest-read-only/src/gtest-death-test.cc"; sourceTree = "<group>"; };
+		C99E204D162C37960065132D /* gtest-filepath.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-filepath.cc"; path = "googletest-read-only/src/gtest-filepath.cc"; sourceTree = "<group>"; };
+		C99E204E162C37960065132D /* gtest-internal-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "gtest-internal-inl.h"; path = "googletest-read-only/src/gtest-internal-inl.h"; sourceTree = "<group>"; };
+		C99E204F162C37960065132D /* gtest-port.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-port.cc"; path = "googletest-read-only/src/gtest-port.cc"; sourceTree = "<group>"; };
+		C99E2050162C37960065132D /* gtest-printers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-printers.cc"; path = "googletest-read-only/src/gtest-printers.cc"; sourceTree = "<group>"; };
+		C99E2051162C37960065132D /* gtest-test-part.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-test-part.cc"; path = "googletest-read-only/src/gtest-test-part.cc"; sourceTree = "<group>"; };
+		C99E2052162C37960065132D /* gtest-typed-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-typed-test.cc"; path = "googletest-read-only/src/gtest-typed-test.cc"; sourceTree = "<group>"; };
+		C99E2053162C37960065132D /* gtest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gtest.cc; path = "googletest-read-only/src/gtest.cc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +218,7 @@
 		C99E1EDF162C33640065132D = {
 			isa = PBXGroup;
 			children = (
+				C99E2042162C37600065132D /* googletest */,
 				C99E1EFB162C33A40065132D /* re2 */,
 				C99E1EEF162C33640065132D /* libphonenumber */,
 				C99E1EEC162C33640065132D /* Frameworks */,
@@ -368,6 +388,23 @@
 			path = testing;
 			sourceTree = "<group>";
 		};
+		C99E2042162C37600065132D /* googletest */ = {
+			isa = PBXGroup;
+			children = (
+				C99E204A162C37960065132D /* gtest_main.cc */,
+				C99E204B162C37960065132D /* gtest-all.cc */,
+				C99E204C162C37960065132D /* gtest-death-test.cc */,
+				C99E204D162C37960065132D /* gtest-filepath.cc */,
+				C99E204E162C37960065132D /* gtest-internal-inl.h */,
+				C99E204F162C37960065132D /* gtest-port.cc */,
+				C99E2050162C37960065132D /* gtest-printers.cc */,
+				C99E2051162C37960065132D /* gtest-test-part.cc */,
+				C99E2052162C37960065132D /* gtest-typed-test.cc */,
+				C99E2053162C37960065132D /* gtest.cc */,
+			);
+			name = googletest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -478,6 +515,15 @@
 				C99E203F162C34EC0065132D /* tostring.cc in Sources */,
 				C99E2040162C34EC0065132D /* unicode_casefold.cc in Sources */,
 				C99E2041162C34EC0065132D /* unicode_groups.cc in Sources */,
+				C99E2054162C37960065132D /* gtest_main.cc in Sources */,
+				C99E2055162C37960065132D /* gtest-all.cc in Sources */,
+				C99E2056162C37960065132D /* gtest-death-test.cc in Sources */,
+				C99E2057162C37960065132D /* gtest-filepath.cc in Sources */,
+				C99E2058162C37960065132D /* gtest-port.cc in Sources */,
+				C99E2059162C37960065132D /* gtest-printers.cc in Sources */,
+				C99E205A162C37960065132D /* gtest-test-part.cc in Sources */,
+				C99E205B162C37960065132D /* gtest-typed-test.cc in Sources */,
+				C99E205C162C37960065132D /* gtest.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +535,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -507,6 +553,7 @@
 				HEADER_SEARCH_PATHS = (
 					"re2/**",
 					re2/util,
+					"googletest-read-only/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -519,7 +566,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -530,6 +577,7 @@
 				HEADER_SEARCH_PATHS = (
 					"re2/**",
 					re2/util,
+					"googletest-read-only/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;

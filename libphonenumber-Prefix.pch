@@ -5,3 +5,6 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+// for re2
+#define USE_CXX0X 1
