@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              24017775588644F9AC594A8B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 86FCB858D9054859949E1CA3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            5A157381260C46188A2E9EA0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            B29323F3F7004F15891222DE /* PBXTargetDependency */,
+                            BD856FDDB36442B1B8420A95 /* PBXTargetDependency */,
+                            AF008552722F4416992B25C6 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              A42F0FFA3A0641559329762F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3C98A4AA75C94DB3B6C959E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            7C59213F8C004A4B98D68F83 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+CECBC9EED2B34B0CB59BA35E /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = C15C9B9107E841D0AE97E2D8 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest-all.cc */; settings = { COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"; }; };
+0FBB4D73D92749688F916513 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */; settings = { COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"; }; };
+59D0C82A63FE45E1878930E4 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 665C2CE1496A4B2D820D0868 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest_main.cc */; settings = { COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"; }; };
+AD7A8DCB13C445FAA1A69960 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */; settings = { COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D48D824C906647508B876591 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              3EF5B24ADE174822B1A4AA03 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              3A40ABE1E76A4AF8A30901EB /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              541C27E028F44F7DA332A214 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              209F49ACF54840C887AA493A /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              4FDCF064B9A849ADAFABB892 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 07E33E0A01114D7FBA10B22F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B9C0723806C645EAB185A2F6;
+                     remoteInfo = gtest_main;
+              };
+              DB8640C179FB4ECB89DFC954 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 07E33E0A01114D7FBA10B22F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5B5FB5324B28444B8F1AC6DC;
+                     remoteInfo = gtest;
+              };
+              9866277451AA4B4988373586 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 07E33E0A01114D7FBA10B22F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A42F0FFA3A0641559329762F;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C15C9B9107E841D0AE97E2D8 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+32417D298A9343098347FC19 /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+665C2CE1496A4B2D820D0868 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gtest_main.cc"; path = "src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
+FC9C445D55284A4BBCDC5694 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              B04577C6FD274E75AC2B7F61  = {
+                     isa = PBXGroup;
+                     children = (
+                            6EA16CF2932C43EC971DD9A8 /* Sources */,
+                            E76CA56B03194E2A866DCA9F /* Resources */,
+                            C58328C422C64FDA8250E057 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              6EA16CF2932C43EC971DD9A8 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C052F1A41C8847609F14DC44 /* ALL_BUILD */,
+                            5AE4957672C24A2898D28054 /* ZERO_CHECK */,
+                            B28DE337DD834E5E8797E740 /* gtest */,
+                            E539386DF6BB4DBCA4009E0A /* gtest_main */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E76CA56B03194E2A866DCA9F /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              C052F1A41C8847609F14DC44 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5ECCD86DA7F344C881D67F48 /* CMake Rules */,
+                            CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              5ECCD86DA7F344C881D67F48 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              5AE4957672C24A2898D28054 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7584FC6505CA4ED095449B10 /* CMake Rules */,
+                            CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              7584FC6505CA4ED095449B10 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              B28DE337DD834E5E8797E740 /* gtest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D9485A769F104828A86DD685 /* Source Files */,
+                            CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */,
+                     );
+                     name = gtest;
+                     sourceTree = "<group>";
+              };
+              D9485A769F104828A86DD685 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C15C9B9107E841D0AE97E2D8 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest-all.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              E539386DF6BB4DBCA4009E0A /* gtest_main */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5990A7D009A0468AB28C1037 /* Source Files */,
+                            CB8D2383FA504A36865C4AD9 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/CMakeLists.txt */,
+                     );
+                     name = gtest_main;
+                     sourceTree = "<group>";
+              };
+              5990A7D009A0468AB28C1037 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            665C2CE1496A4B2D820D0868 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest_main.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              C58328C422C64FDA8250E057 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            32417D298A9343098347FC19 /* gtest */,
+                            FC9C445D55284A4BBCDC5694 /* gtest_main */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              5B5FB5324B28444B8F1AC6DC /* gtest */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 186168E34A444F3396E32775 /* Build configuration list for PBXNativeTarget "gtest" */;
+                     buildPhases = (
+                            B20215D2DF9F48B9896A6665 /* Sources */,
+                            45EF12FFB0EE444E8641067A /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            AF008552722F4416992B25C6 /* PBXTargetDependency */,
+                     );
+                     name = gtest;
+                     productName = gtest;
+                     productReference = 32417D298A9343098347FC19 /* gtest */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              B9C0723806C645EAB185A2F6 /* gtest_main */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 4B7A214EB1884A0EA8AD8D29 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+                     buildPhases = (
+                            D5935C32452241F885FA9922 /* Sources */,
+                            91BFB2B7EDFC4531915D68B7 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            BD856FDDB36442B1B8420A95 /* PBXTargetDependency */,
+                            AF008552722F4416992B25C6 /* PBXTargetDependency */,
+                     );
+                     name = gtest_main;
+                     productName = gtest_main;
+                     productReference = FC9C445D55284A4BBCDC5694 /* gtest_main */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              07E33E0A01114D7FBA10B22F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = DFD90C1DBD114D65AC58759F /* Build configuration list for PBXProject  "gtest" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            3EF5B24ADE174822B1A4AA03 /* Debug */,
+                            3A40ABE1E76A4AF8A30901EB /* Release */,
+                            541C27E028F44F7DA332A214 /* MinSizeRel */,
+                            209F49ACF54840C887AA493A /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = B04577C6FD274E75AC2B7F61;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            24017775588644F9AC594A8B /* ALL_BUILD */,
+                            A42F0FFA3A0641559329762F /* ZERO_CHECK */,
+                            5B5FB5324B28444B8F1AC6DC /* gtest */,
+                            B9C0723806C645EAB185A2F6 /* gtest_main */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A06ADFEF790F44B394450B3F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5A157381260C46188A2E9EA0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build -f /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1884A69D74C1438F951593E3 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7C59213F8C004A4B98D68F83 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build -f /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              45EF12FFB0EE444E8641067A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build -f /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeScripts/gtest_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              91BFB2B7EDFC4531915D68B7 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build -f /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeScripts/gtest_main_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              B20215D2DF9F48B9896A6665 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            CECBC9EED2B34B0CB59BA35E /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest-all.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              D5935C32452241F885FA9922 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            59D0C82A63FE45E1878930E4 /* /Users/matt/Repositories/libphonenumber-ios/googletest-read-only/src/gtest_main.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              B29323F3F7004F15891222DE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B9C0723806C645EAB185A2F6 /* gtest_main */;
+                     targetProxy = 4FDCF064B9A849ADAFABB892 /* PBXContainerItemProxy */;
+              };
+              BD856FDDB36442B1B8420A95 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5B5FB5324B28444B8F1AC6DC /* gtest */;
+                     targetProxy = DB8640C179FB4ECB89DFC954 /* PBXContainerItemProxy */;
+              };
+              AF008552722F4416992B25C6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A42F0FFA3A0641559329762F /* ZERO_CHECK */;
+                     targetProxy = 9866277451AA4B4988373586 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              C530267ECD2F475E842510AA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/build";
+                     };
+                     name = Debug;
+              };
+              CF1F068669B14B2C8E251D42 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/build";
+                     };
+                     name = Release;
+              };
+              D0E493FEED844606A89C4F38 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/build";
+                     };
+                     name = MinSizeRel;
+              };
+              78933426C8564B50A450B795 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              57A1ACEF79324332BD8FD674 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              DD96455A367E4B2BA02E522E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5CCD933B34304F8AAECED949 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              FD93EBB141A74A3D969ACD19 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              FFE3C80902B84A2CA419CD36 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              251C81C4AE324B33B154998B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0AC5683CE3DF4583976986C5 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              44AEE693783D4A49BA1B1AD9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2313DDB9CB024448BEE2E417 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5FA74B42E9864D649C4B06E0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              9116EE42CF0D45C8913CDD91 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4EF347099BC548D381EAC71D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2CA1117B77D44F3ABDD9BC61 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B4389EB78A934490A33BDA6B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              41CB9829FF4D4A18A9A155C7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              CBE8C7434B0C425B8C3991BE /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/include", "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              DFD90C1DBD114D65AC58759F /* Build configuration list for PBXProject  "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C530267ECD2F475E842510AA /* Debug */,
+                            CF1F068669B14B2C8E251D42 /* Release */,
+                            D0E493FEED844606A89C4F38 /* MinSizeRel */,
+                            78933426C8564B50A450B795 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              86FCB858D9054859949E1CA3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            57A1ACEF79324332BD8FD674 /* Debug */,
+                            DD96455A367E4B2BA02E522E /* Release */,
+                            5CCD933B34304F8AAECED949 /* MinSizeRel */,
+                            FD93EBB141A74A3D969ACD19 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3C98A4AA75C94DB3B6C959E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FFE3C80902B84A2CA419CD36 /* Debug */,
+                            251C81C4AE324B33B154998B /* Release */,
+                            0AC5683CE3DF4583976986C5 /* MinSizeRel */,
+                            44AEE693783D4A49BA1B1AD9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              186168E34A444F3396E32775 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2313DDB9CB024448BEE2E417 /* Debug */,
+                            5FA74B42E9864D649C4B06E0 /* Release */,
+                            9116EE42CF0D45C8913CDD91 /* MinSizeRel */,
+                            4EF347099BC548D381EAC71D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4B7A214EB1884A0EA8AD8D29 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2CA1117B77D44F3ABDD9BC61 /* Debug */,
+                            B4389EB78A934490A33BDA6B /* Release */,
+                            41CB9829FF4D4A18A9A155C7 /* MinSizeRel */,
+                            CBE8C7434B0C425B8C3991BE /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 07E33E0A01114D7FBA10B22F;
+}

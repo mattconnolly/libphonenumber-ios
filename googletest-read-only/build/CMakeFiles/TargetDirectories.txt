@@ -1,0 +1,4 @@
+/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeFiles/ALL_BUILD.dir
+/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeFiles/ZERO_CHECK.dir
+/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeFiles/gtest.dir
+/Users/matt/Repositories/libphonenumber-ios/googletest-read-only/build/CMakeFiles/gtest_main.dir
