@@ -8,3 +8,5 @@
 
 // for re2
 #define USE_CXX0X 1
+
+#define USE_ICU_REGEXP 1

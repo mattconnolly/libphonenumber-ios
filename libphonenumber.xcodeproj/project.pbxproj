@@ -76,6 +76,33 @@
 		C99E205A162C37960065132D /* gtest-test-part.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2051162C37960065132D /* gtest-test-part.cc */; };
 		C99E205B162C37960065132D /* gtest-typed-test.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2052162C37960065132D /* gtest-typed-test.cc */; };
 		C99E205C162C37960065132D /* gtest.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2053162C37960065132D /* gtest.cc */; };
+		C99E20AB162C390E0065132D /* string_piece.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2064162C390E0065132D /* string_piece.cc */; };
+		C99E20AC162C390E0065132D /* alternate_format.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E206E162C390E0065132D /* alternate_format.cc */; };
+		C99E20AD162C390E0065132D /* asyoutypeformatter.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2070162C390E0065132D /* asyoutypeformatter.cc */; };
+		C99E20AE162C390E0065132D /* default_logger.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2073162C390E0065132D /* default_logger.cc */; };
+		C99E20AF162C390E0065132D /* area_code_map.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2077162C390E0065132D /* area_code_map.cc */; };
+		C99E20B0162C390E0065132D /* default_map_storage.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2079162C390E0065132D /* default_map_storage.cc */; };
+		C99E20B1162C390E0065132D /* mapping_file_provider.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E207C162C390E0065132D /* mapping_file_provider.cc */; };
+		C99E20B2162C390E0065132D /* lite_metadata.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E207E162C390E0065132D /* lite_metadata.cc */; };
+		C99E20B3162C390E0065132D /* logger.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E207F162C390E0065132D /* logger.cc */; };
+		C99E20B4162C390E0065132D /* metadata.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2081162C390E0065132D /* metadata.cc */; };
+		C99E20B5162C390E0065132D /* phonenumber.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2084162C390E0065132D /* phonenumber.cc */; };
+		C99E20B6162C390E0065132D /* phonenumbermatch.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2086162C390E0065132D /* phonenumbermatch.cc */; };
+		C99E20B7162C390E0065132D /* phonenumbermatcher.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2088162C390E0065132D /* phonenumbermatcher.cc */; };
+		C99E20B8162C390E0065132D /* phonenumberutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208A162C390E0065132D /* phonenumberutil.cc */; };
+		C99E20B9162C390E0065132D /* regexp_adapter_icu.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208D162C390E0065132D /* regexp_adapter_icu.cc */; };
+		C99E20BA162C390E0065132D /* regexp_adapter_re2.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208F162C390E0065132D /* regexp_adapter_re2.cc */; };
+		C99E20BB162C390E0065132D /* regexp_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2091162C390E0065132D /* regexp_cache.cc */; };
+		C99E20BC162C390E0065132D /* shortnumberutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2095162C390E0065132D /* shortnumberutil.cc */; };
+		C99E20BD162C390E0065132D /* string_byte_sink.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2098162C390E0065132D /* string_byte_sink.cc */; };
+		C99E20BE162C390E0065132D /* stringutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209A162C390E0065132D /* stringutil.cc */; };
+		C99E20BF162C390E0065132D /* test_metadata.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209C162C390E0065132D /* test_metadata.cc */; };
+		C99E20C0162C390E0065132D /* unicodestring.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209D162C390E0065132D /* unicodestring.cc */; };
+		C99E20C1162C390E0065132D /* rune.c in Sources */ = {isa = PBXBuildFile; fileRef = C99E20A1162C390E0065132D /* rune.c */; };
+		C99E20C2162C390E0065132D /* unicodetext.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E20A4162C390E0065132D /* unicodetext.cc */; };
+		C99E20C3162C390E0065132D /* unilib.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E20A6162C390E0065132D /* unilib.cc */; };
+		C99E20CB162D59340065132D /* phonemetadata.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E20C7162D59340065132D /* phonemetadata.pb.cc */; };
+		C99E20CC162D59340065132D /* phonenumber.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E20C9162D59340065132D /* phonenumber.pb.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,6 +228,76 @@
 		C99E2051162C37960065132D /* gtest-test-part.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-test-part.cc"; path = "googletest-read-only/src/gtest-test-part.cc"; sourceTree = "<group>"; };
 		C99E2052162C37960065132D /* gtest-typed-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-typed-test.cc"; path = "googletest-read-only/src/gtest-typed-test.cc"; sourceTree = "<group>"; };
 		C99E2053162C37960065132D /* gtest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gtest.cc; path = "googletest-read-only/src/gtest.cc"; sourceTree = "<group>"; };
+		C99E205F162C390E0065132D /* basictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basictypes.h; sourceTree = "<group>"; };
+		C99E2060162C390E0065132D /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		C99E2062162C390E0065132D /* scoped_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoped_ptr.h; sourceTree = "<group>"; };
+		C99E2063162C390E0065132D /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		C99E2064162C390E0065132D /* string_piece.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string_piece.cc; sourceTree = "<group>"; };
+		C99E2065162C390E0065132D /* string_piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_piece.h; sourceTree = "<group>"; };
+		C99E2067162C390E0065132D /* lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		C99E206E162C390E0065132D /* alternate_format.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alternate_format.cc; sourceTree = "<group>"; };
+		C99E206F162C390E0065132D /* alternate_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alternate_format.h; sourceTree = "<group>"; };
+		C99E2070162C390E0065132D /* asyoutypeformatter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asyoutypeformatter.cc; sourceTree = "<group>"; };
+		C99E2071162C390E0065132D /* asyoutypeformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asyoutypeformatter.h; sourceTree = "<group>"; };
+		C99E2072162C390E0065132D /* callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callback.h; sourceTree = "<group>"; };
+		C99E2073162C390E0065132D /* default_logger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = default_logger.cc; sourceTree = "<group>"; };
+		C99E2074162C390E0065132D /* default_logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = default_logger.h; sourceTree = "<group>"; };
+		C99E2075162C390E0065132D /* encoding_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding_utils.h; sourceTree = "<group>"; };
+		C99E2077162C390E0065132D /* area_code_map.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = area_code_map.cc; sourceTree = "<group>"; };
+		C99E2078162C390E0065132D /* area_code_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = area_code_map.h; sourceTree = "<group>"; };
+		C99E2079162C390E0065132D /* default_map_storage.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = default_map_storage.cc; sourceTree = "<group>"; };
+		C99E207A162C390E0065132D /* default_map_storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = default_map_storage.h; sourceTree = "<group>"; };
+		C99E207B162C390E0065132D /* geocoding_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geocoding_data.h; sourceTree = "<group>"; };
+		C99E207C162C390E0065132D /* mapping_file_provider.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapping_file_provider.cc; sourceTree = "<group>"; };
+		C99E207D162C390E0065132D /* mapping_file_provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapping_file_provider.h; sourceTree = "<group>"; };
+		C99E207E162C390E0065132D /* lite_metadata.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lite_metadata.cc; sourceTree = "<group>"; };
+		C99E207F162C390E0065132D /* logger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logger.cc; sourceTree = "<group>"; };
+		C99E2080162C390E0065132D /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		C99E2081162C390E0065132D /* metadata.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata.cc; sourceTree = "<group>"; };
+		C99E2082162C390E0065132D /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
+		C99E2083162C390E0065132D /* normalize_utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalize_utf8.h; sourceTree = "<group>"; };
+		C99E2084162C390E0065132D /* phonenumber.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonenumber.cc; sourceTree = "<group>"; };
+		C99E2085162C390E0065132D /* phonenumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonenumber.h; sourceTree = "<group>"; };
+		C99E2086162C390E0065132D /* phonenumbermatch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonenumbermatch.cc; sourceTree = "<group>"; };
+		C99E2087162C390E0065132D /* phonenumbermatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonenumbermatch.h; sourceTree = "<group>"; };
+		C99E2088162C390E0065132D /* phonenumbermatcher.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonenumbermatcher.cc; sourceTree = "<group>"; };
+		C99E2089162C390E0065132D /* phonenumbermatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonenumbermatcher.h; sourceTree = "<group>"; };
+		C99E208A162C390E0065132D /* phonenumberutil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonenumberutil.cc; sourceTree = "<group>"; };
+		C99E208B162C390E0065132D /* phonenumberutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonenumberutil.h; sourceTree = "<group>"; };
+		C99E208C162C390E0065132D /* regexp_adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp_adapter.h; sourceTree = "<group>"; };
+		C99E208D162C390E0065132D /* regexp_adapter_icu.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regexp_adapter_icu.cc; sourceTree = "<group>"; };
+		C99E208E162C390E0065132D /* regexp_adapter_icu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp_adapter_icu.h; sourceTree = "<group>"; };
+		C99E208F162C390E0065132D /* regexp_adapter_re2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regexp_adapter_re2.cc; sourceTree = "<group>"; };
+		C99E2090162C390E0065132D /* regexp_adapter_re2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp_adapter_re2.h; sourceTree = "<group>"; };
+		C99E2091162C390E0065132D /* regexp_cache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regexp_cache.cc; sourceTree = "<group>"; };
+		C99E2092162C390E0065132D /* regexp_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp_cache.h; sourceTree = "<group>"; };
+		C99E2093162C390E0065132D /* regexp_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp_factory.h; sourceTree = "<group>"; };
+		C99E2094162C390E0065132D /* region_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = region_code.h; sourceTree = "<group>"; };
+		C99E2095162C390E0065132D /* shortnumberutil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shortnumberutil.cc; sourceTree = "<group>"; };
+		C99E2096162C390E0065132D /* shortnumberutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortnumberutil.h; sourceTree = "<group>"; };
+		C99E2097162C390E0065132D /* stl_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl_util.h; sourceTree = "<group>"; };
+		C99E2098162C390E0065132D /* string_byte_sink.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string_byte_sink.cc; sourceTree = "<group>"; };
+		C99E2099162C390E0065132D /* string_byte_sink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_byte_sink.h; sourceTree = "<group>"; };
+		C99E209A162C390E0065132D /* stringutil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringutil.cc; sourceTree = "<group>"; };
+		C99E209B162C390E0065132D /* stringutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringutil.h; sourceTree = "<group>"; };
+		C99E209C162C390E0065132D /* test_metadata.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_metadata.cc; sourceTree = "<group>"; };
+		C99E209D162C390E0065132D /* unicodestring.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unicodestring.cc; sourceTree = "<group>"; };
+		C99E209E162C390E0065132D /* unicodestring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodestring.h; sourceTree = "<group>"; };
+		C99E20A0162C390E0065132D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		C99E20A1162C390E0065132D /* rune.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rune.c; sourceTree = "<group>"; };
+		C99E20A2162C390E0065132D /* stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringpiece.h; sourceTree = "<group>"; };
+		C99E20A3162C390E0065132D /* stringprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprintf.h; sourceTree = "<group>"; };
+		C99E20A4162C390E0065132D /* unicodetext.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unicodetext.cc; sourceTree = "<group>"; };
+		C99E20A5162C390E0065132D /* unicodetext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodetext.h; sourceTree = "<group>"; };
+		C99E20A6162C390E0065132D /* unilib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unilib.cc; sourceTree = "<group>"; };
+		C99E20A7162C390E0065132D /* unilib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unilib.h; sourceTree = "<group>"; };
+		C99E20A8162C390E0065132D /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		C99E20A9162C390E0065132D /* utfdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utfdef.h; sourceTree = "<group>"; };
+		C99E20C5162D55EF0065132D /* compile_protocol_buffers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile_protocol_buffers.sh; sourceTree = "<group>"; };
+		C99E20C7162D59340065132D /* phonemetadata.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonemetadata.pb.cc; sourceTree = "<group>"; };
+		C99E20C8162D59340065132D /* phonemetadata.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonemetadata.pb.h; sourceTree = "<group>"; };
+		C99E20C9162D59340065132D /* phonenumber.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = phonenumber.pb.cc; sourceTree = "<group>"; };
+		C99E20CA162D59340065132D /* phonenumber.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonenumber.pb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +315,8 @@
 		C99E1EDF162C33640065132D = {
 			isa = PBXGroup;
 			children = (
+				C99E20C4162D55DE0065132D /* scripts */,
+				C99E1EF0162C33640065132D /* Supporting Files */,
 				C99E2042162C37600065132D /* googletest */,
 				C99E1EFB162C33A40065132D /* re2 */,
 				C99E1EEF162C33640065132D /* libphonenumber */,
@@ -245,7 +344,7 @@
 		C99E1EEF162C33640065132D /* libphonenumber */ = {
 			isa = PBXGroup;
 			children = (
-				C99E1EF0162C33640065132D /* Supporting Files */,
+				C99E205D162C390E0065132D /* src */,
 			);
 			path = libphonenumber;
 			sourceTree = "<group>";
@@ -256,6 +355,7 @@
 				C99E1EF1162C33640065132D /* libphonenumber-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = libphonenumber;
 			sourceTree = "<group>";
 		};
 		C99E1EFB162C33A40065132D /* re2 */ = {
@@ -405,6 +505,187 @@
 			name = googletest;
 			sourceTree = "<group>";
 		};
+		C99E205D162C390E0065132D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C99E205E162C390E0065132D /* base */,
+				C99E206C162C390E0065132D /* build */,
+				C99E206D162C390E0065132D /* phonenumbers */,
+				C99E20AA162C390E0065132D /* utf */,
+			);
+			name = src;
+			path = "libphonenumber-read-only/cpp/src";
+			sourceTree = SOURCE_ROOT;
+		};
+		C99E205E162C390E0065132D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				C99E205F162C390E0065132D /* basictypes.h */,
+				C99E2060162C390E0065132D /* logging.h */,
+				C99E2061162C390E0065132D /* memory */,
+				C99E2064162C390E0065132D /* string_piece.cc */,
+				C99E2065162C390E0065132D /* string_piece.h */,
+				C99E2066162C390E0065132D /* synchronization */,
+				C99E2068162C390E0065132D /* third_party */,
+				C99E206B162C390E0065132D /* threading */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		C99E2061162C390E0065132D /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				C99E2062162C390E0065132D /* scoped_ptr.h */,
+				C99E2063162C390E0065132D /* singleton.h */,
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		C99E2066162C390E0065132D /* synchronization */ = {
+			isa = PBXGroup;
+			children = (
+				C99E2067162C390E0065132D /* lock.h */,
+			);
+			path = synchronization;
+			sourceTree = "<group>";
+		};
+		C99E2068162C390E0065132D /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				C99E2069162C390E0065132D /* dynamic_annotations */,
+				C99E206A162C390E0065132D /* valgrind */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		C99E2069162C390E0065132D /* dynamic_annotations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dynamic_annotations;
+			sourceTree = "<group>";
+		};
+		C99E206A162C390E0065132D /* valgrind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = valgrind;
+			sourceTree = "<group>";
+		};
+		C99E206B162C390E0065132D /* threading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = threading;
+			sourceTree = "<group>";
+		};
+		C99E206C162C390E0065132D /* build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		C99E206D162C390E0065132D /* phonenumbers */ = {
+			isa = PBXGroup;
+			children = (
+				C99E206E162C390E0065132D /* alternate_format.cc */,
+				C99E206F162C390E0065132D /* alternate_format.h */,
+				C99E2070162C390E0065132D /* asyoutypeformatter.cc */,
+				C99E2071162C390E0065132D /* asyoutypeformatter.h */,
+				C99E2072162C390E0065132D /* callback.h */,
+				C99E2073162C390E0065132D /* default_logger.cc */,
+				C99E2074162C390E0065132D /* default_logger.h */,
+				C99E2075162C390E0065132D /* encoding_utils.h */,
+				C99E2076162C390E0065132D /* geocoding */,
+				C99E207E162C390E0065132D /* lite_metadata.cc */,
+				C99E207F162C390E0065132D /* logger.cc */,
+				C99E2080162C390E0065132D /* logger.h */,
+				C99E2081162C390E0065132D /* metadata.cc */,
+				C99E2082162C390E0065132D /* metadata.h */,
+				C99E2083162C390E0065132D /* normalize_utf8.h */,
+				C99E20C7162D59340065132D /* phonemetadata.pb.cc */,
+				C99E20C8162D59340065132D /* phonemetadata.pb.h */,
+				C99E2084162C390E0065132D /* phonenumber.cc */,
+				C99E2085162C390E0065132D /* phonenumber.h */,
+				C99E20C9162D59340065132D /* phonenumber.pb.cc */,
+				C99E20CA162D59340065132D /* phonenumber.pb.h */,
+				C99E2086162C390E0065132D /* phonenumbermatch.cc */,
+				C99E2087162C390E0065132D /* phonenumbermatch.h */,
+				C99E2088162C390E0065132D /* phonenumbermatcher.cc */,
+				C99E2089162C390E0065132D /* phonenumbermatcher.h */,
+				C99E208A162C390E0065132D /* phonenumberutil.cc */,
+				C99E208B162C390E0065132D /* phonenumberutil.h */,
+				C99E208C162C390E0065132D /* regexp_adapter.h */,
+				C99E208D162C390E0065132D /* regexp_adapter_icu.cc */,
+				C99E208E162C390E0065132D /* regexp_adapter_icu.h */,
+				C99E208F162C390E0065132D /* regexp_adapter_re2.cc */,
+				C99E2090162C390E0065132D /* regexp_adapter_re2.h */,
+				C99E2091162C390E0065132D /* regexp_cache.cc */,
+				C99E2092162C390E0065132D /* regexp_cache.h */,
+				C99E2093162C390E0065132D /* regexp_factory.h */,
+				C99E2094162C390E0065132D /* region_code.h */,
+				C99E2095162C390E0065132D /* shortnumberutil.cc */,
+				C99E2096162C390E0065132D /* shortnumberutil.h */,
+				C99E2097162C390E0065132D /* stl_util.h */,
+				C99E2098162C390E0065132D /* string_byte_sink.cc */,
+				C99E2099162C390E0065132D /* string_byte_sink.h */,
+				C99E209A162C390E0065132D /* stringutil.cc */,
+				C99E209B162C390E0065132D /* stringutil.h */,
+				C99E209C162C390E0065132D /* test_metadata.cc */,
+				C99E209D162C390E0065132D /* unicodestring.cc */,
+				C99E209E162C390E0065132D /* unicodestring.h */,
+				C99E209F162C390E0065132D /* utf */,
+			);
+			path = phonenumbers;
+			sourceTree = "<group>";
+		};
+		C99E2076162C390E0065132D /* geocoding */ = {
+			isa = PBXGroup;
+			children = (
+				C99E2077162C390E0065132D /* area_code_map.cc */,
+				C99E2078162C390E0065132D /* area_code_map.h */,
+				C99E2079162C390E0065132D /* default_map_storage.cc */,
+				C99E207A162C390E0065132D /* default_map_storage.h */,
+				C99E207B162C390E0065132D /* geocoding_data.h */,
+				C99E207C162C390E0065132D /* mapping_file_provider.cc */,
+				C99E207D162C390E0065132D /* mapping_file_provider.h */,
+			);
+			path = geocoding;
+			sourceTree = "<group>";
+		};
+		C99E209F162C390E0065132D /* utf */ = {
+			isa = PBXGroup;
+			children = (
+				C99E20A0162C390E0065132D /* README */,
+				C99E20A1162C390E0065132D /* rune.c */,
+				C99E20A2162C390E0065132D /* stringpiece.h */,
+				C99E20A3162C390E0065132D /* stringprintf.h */,
+				C99E20A4162C390E0065132D /* unicodetext.cc */,
+				C99E20A5162C390E0065132D /* unicodetext.h */,
+				C99E20A6162C390E0065132D /* unilib.cc */,
+				C99E20A7162C390E0065132D /* unilib.h */,
+				C99E20A8162C390E0065132D /* utf.h */,
+				C99E20A9162C390E0065132D /* utfdef.h */,
+			);
+			path = utf;
+			sourceTree = "<group>";
+		};
+		C99E20AA162C390E0065132D /* utf */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utf;
+			sourceTree = "<group>";
+		};
+		C99E20C4162D55DE0065132D /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C99E20C5162D55EF0065132D /* compile_protocol_buffers.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -412,6 +693,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C99E1EF8162C33640065132D /* Build configuration list for PBXNativeTarget "libphonenumber" */;
 			buildPhases = (
+				C99E20C6162D561F0065132D /* ShellScript */,
 				C99E1EE6162C33640065132D /* Sources */,
 				C99E1EE7162C33640065132D /* Frameworks */,
 				C99E1EE8162C33640065132D /* CopyFiles */,
@@ -450,6 +732,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C99E20C6162D561F0065132D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = scripts/compile_protocol_buffers.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C99E1EE6162C33640065132D /* Sources */ = {
@@ -524,6 +822,33 @@
 				C99E205A162C37960065132D /* gtest-test-part.cc in Sources */,
 				C99E205B162C37960065132D /* gtest-typed-test.cc in Sources */,
 				C99E205C162C37960065132D /* gtest.cc in Sources */,
+				C99E20AB162C390E0065132D /* string_piece.cc in Sources */,
+				C99E20AC162C390E0065132D /* alternate_format.cc in Sources */,
+				C99E20AD162C390E0065132D /* asyoutypeformatter.cc in Sources */,
+				C99E20AE162C390E0065132D /* default_logger.cc in Sources */,
+				C99E20AF162C390E0065132D /* area_code_map.cc in Sources */,
+				C99E20B0162C390E0065132D /* default_map_storage.cc in Sources */,
+				C99E20B1162C390E0065132D /* mapping_file_provider.cc in Sources */,
+				C99E20B2162C390E0065132D /* lite_metadata.cc in Sources */,
+				C99E20B3162C390E0065132D /* logger.cc in Sources */,
+				C99E20B4162C390E0065132D /* metadata.cc in Sources */,
+				C99E20B5162C390E0065132D /* phonenumber.cc in Sources */,
+				C99E20B6162C390E0065132D /* phonenumbermatch.cc in Sources */,
+				C99E20B7162C390E0065132D /* phonenumbermatcher.cc in Sources */,
+				C99E20B8162C390E0065132D /* phonenumberutil.cc in Sources */,
+				C99E20B9162C390E0065132D /* regexp_adapter_icu.cc in Sources */,
+				C99E20BA162C390E0065132D /* regexp_adapter_re2.cc in Sources */,
+				C99E20BB162C390E0065132D /* regexp_cache.cc in Sources */,
+				C99E20BC162C390E0065132D /* shortnumberutil.cc in Sources */,
+				C99E20BD162C390E0065132D /* string_byte_sink.cc in Sources */,
+				C99E20BE162C390E0065132D /* stringutil.cc in Sources */,
+				C99E20BF162C390E0065132D /* test_metadata.cc in Sources */,
+				C99E20C0162C390E0065132D /* unicodestring.cc in Sources */,
+				C99E20C1162C390E0065132D /* rune.c in Sources */,
+				C99E20C2162C390E0065132D /* unicodetext.cc in Sources */,
+				C99E20C3162C390E0065132D /* unilib.cc in Sources */,
+				C99E20CB162D59340065132D /* phonemetadata.pb.cc in Sources */,
+				C99E20CC162D59340065132D /* phonenumber.pb.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +879,8 @@
 					"re2/**",
 					re2/util,
 					"googletest-read-only/**",
+					"libphonenumber-read-only/**",
+					/usr/local/include,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -578,6 +905,8 @@
 					"re2/**",
 					re2/util,
 					"googletest-read-only/**",
+					"libphonenumber-read-only/**",
+					/usr/local/include,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
