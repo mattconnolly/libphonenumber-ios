@@ -29,7 +29,7 @@ namespace google {
 namespace protobuf {
 
 // Internal implementation detail -- do not call these.
-void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
 void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
 void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
 
@@ -74,12 +74,12 @@ enum FieldDescriptorProto_Type {
   FieldDescriptorProto_Type_TYPE_SINT32 = 17,
   FieldDescriptorProto_Type_TYPE_SINT64 = 18
 };
-LIBPROTOBUF_EXPORT bool FieldDescriptorProto_Type_IsValid(int value);
+bool FieldDescriptorProto_Type_IsValid(int value);
 const FieldDescriptorProto_Type FieldDescriptorProto_Type_Type_MIN = FieldDescriptorProto_Type_TYPE_DOUBLE;
 const FieldDescriptorProto_Type FieldDescriptorProto_Type_Type_MAX = FieldDescriptorProto_Type_TYPE_SINT64;
 const int FieldDescriptorProto_Type_Type_ARRAYSIZE = FieldDescriptorProto_Type_Type_MAX + 1;
 
-LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Type_descriptor();
+const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Type_descriptor();
 inline const ::std::string& FieldDescriptorProto_Type_Name(FieldDescriptorProto_Type value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldDescriptorProto_Type_descriptor(), value);
@@ -94,12 +94,12 @@ enum FieldDescriptorProto_Label {
   FieldDescriptorProto_Label_LABEL_REQUIRED = 2,
   FieldDescriptorProto_Label_LABEL_REPEATED = 3
 };
-LIBPROTOBUF_EXPORT bool FieldDescriptorProto_Label_IsValid(int value);
+bool FieldDescriptorProto_Label_IsValid(int value);
 const FieldDescriptorProto_Label FieldDescriptorProto_Label_Label_MIN = FieldDescriptorProto_Label_LABEL_OPTIONAL;
 const FieldDescriptorProto_Label FieldDescriptorProto_Label_Label_MAX = FieldDescriptorProto_Label_LABEL_REPEATED;
 const int FieldDescriptorProto_Label_Label_ARRAYSIZE = FieldDescriptorProto_Label_Label_MAX + 1;
 
-LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Label_descriptor();
+const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Label_descriptor();
 inline const ::std::string& FieldDescriptorProto_Label_Name(FieldDescriptorProto_Label value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldDescriptorProto_Label_descriptor(), value);
@@ -114,12 +114,12 @@ enum FileOptions_OptimizeMode {
   FileOptions_OptimizeMode_CODE_SIZE = 2,
   FileOptions_OptimizeMode_LITE_RUNTIME = 3
 };
-LIBPROTOBUF_EXPORT bool FileOptions_OptimizeMode_IsValid(int value);
+bool FileOptions_OptimizeMode_IsValid(int value);
 const FileOptions_OptimizeMode FileOptions_OptimizeMode_OptimizeMode_MIN = FileOptions_OptimizeMode_SPEED;
 const FileOptions_OptimizeMode FileOptions_OptimizeMode_OptimizeMode_MAX = FileOptions_OptimizeMode_LITE_RUNTIME;
 const int FileOptions_OptimizeMode_OptimizeMode_ARRAYSIZE = FileOptions_OptimizeMode_OptimizeMode_MAX + 1;
 
-LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FileOptions_OptimizeMode_descriptor();
+const ::google::protobuf::EnumDescriptor* FileOptions_OptimizeMode_descriptor();
 inline const ::std::string& FileOptions_OptimizeMode_Name(FileOptions_OptimizeMode value) {
   return ::google::protobuf::internal::NameOfEnum(
     FileOptions_OptimizeMode_descriptor(), value);
@@ -134,12 +134,12 @@ enum FieldOptions_CType {
   FieldOptions_CType_CORD = 1,
   FieldOptions_CType_STRING_PIECE = 2
 };
-LIBPROTOBUF_EXPORT bool FieldOptions_CType_IsValid(int value);
+bool FieldOptions_CType_IsValid(int value);
 const FieldOptions_CType FieldOptions_CType_CType_MIN = FieldOptions_CType_STRING;
 const FieldOptions_CType FieldOptions_CType_CType_MAX = FieldOptions_CType_STRING_PIECE;
 const int FieldOptions_CType_CType_ARRAYSIZE = FieldOptions_CType_CType_MAX + 1;
 
-LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldOptions_CType_descriptor();
+const ::google::protobuf::EnumDescriptor* FieldOptions_CType_descriptor();
 inline const ::std::string& FieldOptions_CType_Name(FieldOptions_CType value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldOptions_CType_descriptor(), value);
@@ -151,7 +151,7 @@ inline bool FieldOptions_CType_Parse(
 }
 // ===================================================================
 
-class LIBPROTOBUF_EXPORT FileDescriptorSet : public ::google::protobuf::Message {
+class FileDescriptorSet : public ::google::protobuf::Message {
  public:
   FileDescriptorSet();
   virtual ~FileDescriptorSet();
@@ -227,7 +227,7 @@ class LIBPROTOBUF_EXPORT FileDescriptorSet : public ::google::protobuf::Message 
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -236,7 +236,7 @@ class LIBPROTOBUF_EXPORT FileDescriptorSet : public ::google::protobuf::Message 
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT FileDescriptorProto : public ::google::protobuf::Message {
+class FileDescriptorProto : public ::google::protobuf::Message {
  public:
   FileDescriptorProto();
   virtual ~FileDescriptorProto();
@@ -418,7 +418,7 @@ class LIBPROTOBUF_EXPORT FileDescriptorProto : public ::google::protobuf::Messag
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(9 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -427,7 +427,7 @@ class LIBPROTOBUF_EXPORT FileDescriptorProto : public ::google::protobuf::Messag
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT DescriptorProto_ExtensionRange : public ::google::protobuf::Message {
+class DescriptorProto_ExtensionRange : public ::google::protobuf::Message {
  public:
   DescriptorProto_ExtensionRange();
   virtual ~DescriptorProto_ExtensionRange();
@@ -510,7 +510,7 @@ class LIBPROTOBUF_EXPORT DescriptorProto_ExtensionRange : public ::google::proto
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -519,7 +519,7 @@ class LIBPROTOBUF_EXPORT DescriptorProto_ExtensionRange : public ::google::proto
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT DescriptorProto : public ::google::protobuf::Message {
+class DescriptorProto : public ::google::protobuf::Message {
  public:
   DescriptorProto();
   virtual ~DescriptorProto();
@@ -674,7 +674,7 @@ class LIBPROTOBUF_EXPORT DescriptorProto : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(7 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -683,7 +683,7 @@ class LIBPROTOBUF_EXPORT DescriptorProto : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT FieldDescriptorProto : public ::google::protobuf::Message {
+class FieldDescriptorProto : public ::google::protobuf::Message {
  public:
   FieldDescriptorProto();
   virtual ~FieldDescriptorProto();
@@ -908,7 +908,7 @@ class LIBPROTOBUF_EXPORT FieldDescriptorProto : public ::google::protobuf::Messa
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(8 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -917,7 +917,7 @@ class LIBPROTOBUF_EXPORT FieldDescriptorProto : public ::google::protobuf::Messa
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT EnumDescriptorProto : public ::google::protobuf::Message {
+class EnumDescriptorProto : public ::google::protobuf::Message {
  public:
   EnumDescriptorProto();
   virtual ~EnumDescriptorProto();
@@ -1018,7 +1018,7 @@ class LIBPROTOBUF_EXPORT EnumDescriptorProto : public ::google::protobuf::Messag
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(3 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1027,7 +1027,7 @@ class LIBPROTOBUF_EXPORT EnumDescriptorProto : public ::google::protobuf::Messag
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT EnumValueDescriptorProto : public ::google::protobuf::Message {
+class EnumValueDescriptorProto : public ::google::protobuf::Message {
  public:
   EnumValueDescriptorProto();
   virtual ~EnumValueDescriptorProto();
@@ -1125,7 +1125,7 @@ class LIBPROTOBUF_EXPORT EnumValueDescriptorProto : public ::google::protobuf::M
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(3 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1134,7 +1134,7 @@ class LIBPROTOBUF_EXPORT EnumValueDescriptorProto : public ::google::protobuf::M
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT ServiceDescriptorProto : public ::google::protobuf::Message {
+class ServiceDescriptorProto : public ::google::protobuf::Message {
  public:
   ServiceDescriptorProto();
   virtual ~ServiceDescriptorProto();
@@ -1235,7 +1235,7 @@ class LIBPROTOBUF_EXPORT ServiceDescriptorProto : public ::google::protobuf::Mes
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(3 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1244,7 +1244,7 @@ class LIBPROTOBUF_EXPORT ServiceDescriptorProto : public ::google::protobuf::Mes
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT MethodDescriptorProto : public ::google::protobuf::Message {
+class MethodDescriptorProto : public ::google::protobuf::Message {
  public:
   MethodDescriptorProto();
   virtual ~MethodDescriptorProto();
@@ -1360,7 +1360,7 @@ class LIBPROTOBUF_EXPORT MethodDescriptorProto : public ::google::protobuf::Mess
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(4 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1369,7 +1369,7 @@ class LIBPROTOBUF_EXPORT MethodDescriptorProto : public ::google::protobuf::Mess
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT FileOptions : public ::google::protobuf::Message {
+class FileOptions : public ::google::protobuf::Message {
  public:
   FileOptions();
   virtual ~FileOptions();
@@ -1561,7 +1561,7 @@ class LIBPROTOBUF_EXPORT FileOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(9 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1570,7 +1570,7 @@ class LIBPROTOBUF_EXPORT FileOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT MessageOptions : public ::google::protobuf::Message {
+class MessageOptions : public ::google::protobuf::Message {
  public:
   MessageOptions();
   virtual ~MessageOptions();
@@ -1669,7 +1669,7 @@ class LIBPROTOBUF_EXPORT MessageOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(3 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1678,7 +1678,7 @@ class LIBPROTOBUF_EXPORT MessageOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT FieldOptions : public ::google::protobuf::Message {
+class FieldOptions : public ::google::protobuf::Message {
  public:
   FieldOptions();
   virtual ~FieldOptions();
@@ -1826,7 +1826,7 @@ class LIBPROTOBUF_EXPORT FieldOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(5 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1835,7 +1835,7 @@ class LIBPROTOBUF_EXPORT FieldOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT EnumOptions : public ::google::protobuf::Message {
+class EnumOptions : public ::google::protobuf::Message {
  public:
   EnumOptions();
   virtual ~EnumOptions();
@@ -1914,7 +1914,7 @@ class LIBPROTOBUF_EXPORT EnumOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -1923,7 +1923,7 @@ class LIBPROTOBUF_EXPORT EnumOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT EnumValueOptions : public ::google::protobuf::Message {
+class EnumValueOptions : public ::google::protobuf::Message {
  public:
   EnumValueOptions();
   virtual ~EnumValueOptions();
@@ -2002,7 +2002,7 @@ class LIBPROTOBUF_EXPORT EnumValueOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2011,7 +2011,7 @@ class LIBPROTOBUF_EXPORT EnumValueOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT ServiceOptions : public ::google::protobuf::Message {
+class ServiceOptions : public ::google::protobuf::Message {
  public:
   ServiceOptions();
   virtual ~ServiceOptions();
@@ -2090,7 +2090,7 @@ class LIBPROTOBUF_EXPORT ServiceOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2099,7 +2099,7 @@ class LIBPROTOBUF_EXPORT ServiceOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT MethodOptions : public ::google::protobuf::Message {
+class MethodOptions : public ::google::protobuf::Message {
  public:
   MethodOptions();
   virtual ~MethodOptions();
@@ -2178,7 +2178,7 @@ class LIBPROTOBUF_EXPORT MethodOptions : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2187,7 +2187,7 @@ class LIBPROTOBUF_EXPORT MethodOptions : public ::google::protobuf::Message {
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT UninterpretedOption_NamePart : public ::google::protobuf::Message {
+class UninterpretedOption_NamePart : public ::google::protobuf::Message {
  public:
   UninterpretedOption_NamePart();
   virtual ~UninterpretedOption_NamePart();
@@ -2274,7 +2274,7 @@ class LIBPROTOBUF_EXPORT UninterpretedOption_NamePart : public ::google::protobu
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2283,7 +2283,7 @@ class LIBPROTOBUF_EXPORT UninterpretedOption_NamePart : public ::google::protobu
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT UninterpretedOption : public ::google::protobuf::Message {
+class UninterpretedOption : public ::google::protobuf::Message {
  public:
   UninterpretedOption();
   virtual ~UninterpretedOption();
@@ -2433,7 +2433,7 @@ class LIBPROTOBUF_EXPORT UninterpretedOption : public ::google::protobuf::Messag
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(7 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2442,7 +2442,7 @@ class LIBPROTOBUF_EXPORT UninterpretedOption : public ::google::protobuf::Messag
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT SourceCodeInfo_Location : public ::google::protobuf::Message {
+class SourceCodeInfo_Location : public ::google::protobuf::Message {
  public:
   SourceCodeInfo_Location();
   virtual ~SourceCodeInfo_Location();
@@ -2533,7 +2533,7 @@ class LIBPROTOBUF_EXPORT SourceCodeInfo_Location : public ::google::protobuf::Me
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
@@ -2542,7 +2542,7 @@ class LIBPROTOBUF_EXPORT SourceCodeInfo_Location : public ::google::protobuf::Me
 };
 // -------------------------------------------------------------------
 
-class LIBPROTOBUF_EXPORT SourceCodeInfo : public ::google::protobuf::Message {
+class SourceCodeInfo : public ::google::protobuf::Message {
  public:
   SourceCodeInfo();
   virtual ~SourceCodeInfo();
@@ -2620,7 +2620,7 @@ class LIBPROTOBUF_EXPORT SourceCodeInfo : public ::google::protobuf::Message {
   mutable int _cached_size_;
   ::google::protobuf::uint32 _has_bits_[(1 + 31) / 32];
   
-  friend void LIBPROTOBUF_EXPORT protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
+  friend void  protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_AssignDesc_google_2fprotobuf_2fdescriptor_2eproto();
   friend void protobuf_ShutdownFile_google_2fprotobuf_2fdescriptor_2eproto();
   
