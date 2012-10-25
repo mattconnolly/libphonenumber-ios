@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C98EE600163953B8004E78AB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C98EE5FF163953B8004E78AB /* libicucore.dylib */; };
+		C98EE603163953BD004E78AB /* libprotobuf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C98EE602163953BD004E78AB /* libprotobuf.dylib */; };
 		C99E1EEE162C33640065132D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E1EED162C33640065132D /* Foundation.framework */; };
 		C99E1FBE162C34D80065132D /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E1FA2162C34D80065132D /* arena.cc */; };
 		C99E1FBF162C34D80065132D /* benchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E1FA5162C34D80065132D /* benchmark.cc */; };
@@ -90,11 +92,9 @@
 		C99E20B6162C390E0065132D /* phonenumbermatch.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2086162C390E0065132D /* phonenumbermatch.cc */; };
 		C99E20B7162C390E0065132D /* phonenumbermatcher.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2088162C390E0065132D /* phonenumbermatcher.cc */; };
 		C99E20B8162C390E0065132D /* phonenumberutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208A162C390E0065132D /* phonenumberutil.cc */; };
-		C99E20B9162C390E0065132D /* regexp_adapter_icu.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208D162C390E0065132D /* regexp_adapter_icu.cc */; };
 		C99E20BA162C390E0065132D /* regexp_adapter_re2.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E208F162C390E0065132D /* regexp_adapter_re2.cc */; };
 		C99E20BB162C390E0065132D /* regexp_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2091162C390E0065132D /* regexp_cache.cc */; };
 		C99E20BC162C390E0065132D /* shortnumberutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2095162C390E0065132D /* shortnumberutil.cc */; };
-		C99E20BD162C390E0065132D /* string_byte_sink.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E2098162C390E0065132D /* string_byte_sink.cc */; };
 		C99E20BE162C390E0065132D /* stringutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209A162C390E0065132D /* stringutil.cc */; };
 		C99E20BF162C390E0065132D /* test_metadata.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209C162C390E0065132D /* test_metadata.cc */; };
 		C99E20C0162C390E0065132D /* unicodestring.cc in Sources */ = {isa = PBXBuildFile; fileRef = C99E209D162C390E0065132D /* unicodestring.cc */; };
@@ -118,6 +118,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C98EE5FF163953B8004E78AB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C98EE602163953BD004E78AB /* libprotobuf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.dylib; path = usr/lib/libprotobuf.dylib; sourceTree = SDKROOT; };
 		C99E1EEA162C33640065132D /* liblibphonenumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibphonenumber.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99E1EED162C33640065132D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C99E1EF1162C33640065132D /* libphonenumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libphonenumber-Prefix.pch"; sourceTree = "<group>"; };
@@ -305,6 +307,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98EE603163953BD004E78AB /* libprotobuf.dylib in Frameworks */,
+				C98EE600163953B8004E78AB /* libicucore.dylib in Frameworks */,
 				C99E1EEE162C33640065132D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +319,8 @@
 		C99E1EDF162C33640065132D = {
 			isa = PBXGroup;
 			children = (
+				C98EE602163953BD004E78AB /* libprotobuf.dylib */,
+				C98EE5FF163953B8004E78AB /* libicucore.dylib */,
 				C99E20C4162D55DE0065132D /* scripts */,
 				C99E1EF0162C33640065132D /* Supporting Files */,
 				C99E2042162C37600065132D /* googletest */,
@@ -836,11 +842,9 @@
 				C99E20B6162C390E0065132D /* phonenumbermatch.cc in Sources */,
 				C99E20B7162C390E0065132D /* phonenumbermatcher.cc in Sources */,
 				C99E20B8162C390E0065132D /* phonenumberutil.cc in Sources */,
-				C99E20B9162C390E0065132D /* regexp_adapter_icu.cc in Sources */,
 				C99E20BA162C390E0065132D /* regexp_adapter_re2.cc in Sources */,
 				C99E20BB162C390E0065132D /* regexp_cache.cc in Sources */,
 				C99E20BC162C390E0065132D /* shortnumberutil.cc in Sources */,
-				C99E20BD162C390E0065132D /* string_byte_sink.cc in Sources */,
 				C99E20BE162C390E0065132D /* stringutil.cc in Sources */,
 				C99E20BF162C390E0065132D /* test_metadata.cc in Sources */,
 				C99E20C0162C390E0065132D /* unicodestring.cc in Sources */,
@@ -859,17 +863,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"USE_RE2=1",
+					"USE_STD_MAP=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -892,12 +898,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_RE2=1",
+					"USE_STD_MAP=1",
+				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
