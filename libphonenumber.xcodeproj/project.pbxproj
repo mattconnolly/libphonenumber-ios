@@ -695,9 +695,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C99E1EE9162C33640065132D /* libphonenumber */ = {
+		C99E1EE9162C33640065132D /* phonenumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C99E1EF8162C33640065132D /* Build configuration list for PBXNativeTarget "libphonenumber" */;
+			buildConfigurationList = C99E1EF8162C33640065132D /* Build configuration list for PBXNativeTarget "phonenumber" */;
 			buildPhases = (
 				C99E20C6162D561F0065132D /* ShellScript */,
 				C99E1EE6162C33640065132D /* Sources */,
@@ -708,7 +708,7 @@
 			);
 			dependencies = (
 			);
-			name = libphonenumber;
+			name = phonenumber;
 			productName = libphonenumber;
 			productReference = C99E1EEA162C33640065132D /* liblibphonenumber.a */;
 			productType = "com.apple.product-type.library.static";
@@ -734,7 +734,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C99E1EE9162C33640065132D /* libphonenumber */,
+				C99E1EE9162C33640065132D /* phonenumber */,
 			);
 		};
 /* End PBXProject section */
@@ -962,7 +962,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C99E1EF8162C33640065132D /* Build configuration list for PBXNativeTarget "libphonenumber" */ = {
+		C99E1EF8162C33640065132D /* Build configuration list for PBXNativeTarget "phonenumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C99E1EF9162C33640065132D /* Debug */,
